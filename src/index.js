@@ -14,7 +14,6 @@ const getData = async () => {
       });
       //* 그리고 나서 한번에 렌더링 시켜준다.
       $content.innerHTML = template;
-      return data.photos;
     } else {
       console.log("데이터를 불러오는 중 오류가 발생했습니다.");
     }
